@@ -1,17 +1,35 @@
 body {
   color: #C0C0C0;
 }
+
 #header {
   height: 100px;
+  padding: 10px;
   border-bottom: 1px dotted grey;
-  
+ 
 }
 
+#tidbit {
+  padding: 10px;
+}
+#logo {
+  float: left;
+  padding-left: 50px;
+  /*padding-bottom: 25px;*/
+}
+img {
+  border: white 1px solid;
+}
+
+#work {
+  color: white;
+  padding: 10px;
+}
 #links{
   padding-top: 40px;
-  padding-right: 30px;
+  padding-right: 130px;
   float: right;
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Aldo', sans-serif;
   font-weight: 800;
   font-size: 24px;
 }
@@ -20,10 +38,6 @@ span:hover {
   color:  #808080;
 }
 
-#logo {
-  width: 100px;
-  height: 100px;
-}
 
 span {
   margin: 10px;
@@ -38,16 +52,35 @@ span {
 
 
 h1 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Square', sans-serif;
   font-size: 54px;
   margin-bottom: 0px;
-  
+}
+
+@font-face {
+  font-family: 'Square';
+  src: local("font/Square.ttf"),
+       url("font/Square.ttf") format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'GreatDay';
+  src: local("font/greatday.ttf"),
+       url("font/greatday.ttf") format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Aldo';
+  src: local("font/AldotheApache.ttf"),
+       url("font/AldotheApache.ttf") format('truetype');
+  font-weight: bold;
 }
 
 h2 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'GreatDay', cursive;
   margin: 0;
   font-size: 34px;
+  /*color: white;*/
 }
 
 #box {
