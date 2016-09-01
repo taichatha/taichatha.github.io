@@ -31,7 +31,7 @@ img {
   float: right;
   font-family: 'Aldo', sans-serif;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 14px;
 }
 
 span:hover {
@@ -79,7 +79,7 @@ h1 {
 h2 {
   font-family: 'GreatDay', cursive;
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   /*color: white;*/
 }
 
