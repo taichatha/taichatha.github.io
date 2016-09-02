@@ -12,19 +12,26 @@ body {
 #tidbit {
   padding: 10px;
 }
+
 #logo {
   float: left;
-  padding-left: 50px;
+  font-family: 'FullPack';
+  font-size: 50px;
+  padding: 30px;
+  color:black;
   /*padding-bottom: 25px;*/
 }
 img {
   border: white 1px solid;
+  margin: -10px;
+  object-fit: cover;
 }
 
 #work {
   color: white;
   padding: 10px;
 }
+
 #links{
   padding-top: 40px;
   padding-right: 130px;
@@ -51,24 +58,35 @@ span {
 }
 
 
+div {
+  text-align: center;
+}
 h1 {
   font-family: 'Square', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 0px;
 }
 
+@font-face {
+  font-family: 'FullPack';
+  src: local("font/fullPack.ttf"),
+       url("font/fullPack.ttf") format('truetype');
+  font-weight: bold;
+}
 @font-face {
   font-family: 'Square';
   src: local("font/Square.ttf"),
        url("font/Square.ttf") format('truetype');
   font-weight: bold;
 }
+
 @font-face {
   font-family: 'GreatDay';
   src: local("font/greatday.ttf"),
        url("font/greatday.ttf") format('truetype');
   font-weight: bold;
 }
+
 @font-face {
   font-family: 'Aldo';
   src: local("font/AldotheApache.ttf"),
