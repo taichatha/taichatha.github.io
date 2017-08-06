@@ -26,3 +26,7 @@ nav ul li a {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.tidbit {
+  margin: 20px;
+}
