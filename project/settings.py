@@ -2,7 +2,7 @@
 
 import os
 
-REPO_NAME = 'flask-ghpages-examples' #used for FREEZER_BASE_URL
+REPO_NAME = 'my-site' #used for FREEZER_BASE_URL
 DEBUG = True
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
