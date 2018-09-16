@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-contents: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+} 
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.horizon {
+  width: 480px;
+  height: 0%;
+  border: 1px rgba(0,0,0,0.2) solid;
+}
+
+.content {
+ width: 480px;
+  /*height: 330px;*/
+  overflow-y: auto;
+}
+
+.App {
+  overflow: hidden;
+}
+
+
+.contact {
+  margin: 5px;
+  width: 180px;
+  font-size: 11px;
+  padding: 5px;
+    color: white;
+  background-color: rgba(0,0,0);
+  border: 1px rgba(0,0,0,0.2) solid;
+}
+
+.hover {
+  display: none;
+}
+
+.contact:hover .non-hover{
+  display: none;
+}
+
+.contact:hover .hover{
+  display: inline;
+}
+.contact:hover {
+  /*background-color: rgba(0,0,0, 0.8);*/
+  /*color: white;*/
+  /*transition: background-color 500ms linear;*/
+}
+
+#version-select{
+  background-color: rgba(0,0,0, 0.1);
+  color: darkgray;
+  font-size: 11px;
+  padding: 4px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
